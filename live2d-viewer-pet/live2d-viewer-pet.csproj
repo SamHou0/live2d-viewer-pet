@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>live2d_viewer_pet</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>live2d_viewer_pet.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="data\talk.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="data\talk.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

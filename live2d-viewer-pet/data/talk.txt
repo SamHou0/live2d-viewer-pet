@@ -1,0 +1,3 @@
+Try to edit talking in the data directory!
+live2d-viewer-pet is completely open-source!
+This app is brought to you by github @SamHou0 and other contributors...
